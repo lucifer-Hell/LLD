@@ -1,4 +1,4 @@
-package EducativeIo.DesignPatterns.CreatorDesignPatterns.FactoryPattern;
+package EducativeIo.DesignPatterns.CreationalDesignPattern.FactoryPattern;
 
 public class WorkLaptop extends Laptop {
     boolean hasVpcPairing;

@@ -1,4 +1,4 @@
-package EducativeIo.DesignPatterns.CreatorDesignPatterns.AdapterPattern;
+package EducativeIo.DesignPatterns.StructuralDesignPatterns.AdapterPattern;
 
 public class Client {
     public static void main(String[] args) {

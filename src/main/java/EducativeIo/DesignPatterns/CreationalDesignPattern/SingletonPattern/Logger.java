@@ -1,4 +1,4 @@
-package EducativeIo.DesignPatterns.CreatorDesignPatterns.SingletonPattern;
+package EducativeIo.DesignPatterns.CreationalDesignPattern.SingletonPattern;
 
 public class Logger {
     public static Logger logger;

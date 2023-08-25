@@ -1,4 +1,4 @@
-package EducativeIo.DesignPatterns.CreatorDesignPatterns.BuilderDesignPattern;
+package EducativeIo.DesignPatterns.CreationalDesignPattern.BuilderDesignPattern;
 
 public abstract class Chair {
     String chairType;

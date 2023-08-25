@@ -1,10 +1,8 @@
-package EducativeIo.DesignPatterns.CreatorDesignPatterns.SingletonPattern;
+package EducativeIo.DesignPatterns.CreationalDesignPattern.SingletonPattern;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Client {
     public static void main(String[] args) {
