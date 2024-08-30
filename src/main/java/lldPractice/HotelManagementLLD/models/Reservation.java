@@ -8,6 +8,25 @@ import java.util.List;
 import java.util.Locale;
 
 public class Reservation {
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    String id;
+    public Reservation(String id ,List<Room> rooms, List<Guest> guestsStaying, Guest bookedBy, LocalDate bookedAt, LocalDate from, LocalDate to) {
+        this.id=id;
+        this.rooms = rooms;
+        this.guestsStaying = guestsStaying;
+        this.bookedBy = bookedBy;
+        this.bookedAt = bookedAt;
+        this.from = from;
+        this.to = to;
+    }
+
     List<Room> rooms;
     List<Guest> guestsStaying;
     Guest bookedBy;

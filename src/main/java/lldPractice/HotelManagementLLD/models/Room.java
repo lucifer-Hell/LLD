@@ -5,13 +5,22 @@ import lldPractice.HotelManagementLLD.enums.RoomType;
 
 public class Room {
 
-    String id;
-    RoomType roomType;
-    RoomStatus roomStatus;
-    String roomNumber;
-    int maxCapacity;
-    int currentCapacity;
-    double roomPrice;
+    public Room(String id, RoomType roomType, String roomNumber, int maxCapacity,double roomPrice) {
+        this.id = id;
+        this.roomType = roomType;
+        this.roomStatus = RoomStatus.AVAILABLE;
+        this.roomNumber = roomNumber;
+        this.maxCapacity = maxCapacity;
+        this.roomPrice = roomPrice;
+    }
+
+    private String id;
+    private RoomType roomType;
+    private RoomStatus roomStatus;
+    private String roomNumber;
+    private int maxCapacity;
+    private int currentCapacity;
+    private double roomPrice;
 
     public String getId() {
         return id;
@@ -70,17 +79,26 @@ public class Room {
     }
 
     public synchronized void checkIn(){
-        if(roomStatus.equals(RoomStatus.BOOKED)) setRoomStatus(RoomStatus.OCCUPIED);
+        if(roomStatus.equals(RoomStatus.BOOKED)) {
+            System.out.println("checked in at "+roomNumber);
+            setRoomStatus(RoomStatus.OCCUPIED);
+        }
         else throw new IllegalStateException("ROOM NOT BOOOKED OR IS ALREADY OCCUPIED BY SOMEONE ELSE ");
     }
 
     public synchronized void checkOut(){
-        if(roomStatus.equals(RoomStatus.OCCUPIED)) setRoomStatus(RoomStatus.AVAILABLE);
+        if(roomStatus.equals(RoomStatus.OCCUPIED)) {
+            System.out.println("checking out room "+ roomNumber);
+            setRoomStatus(RoomStatus.AVAILABLE);
+        }
         else throw new IllegalStateException("CAN'T CHECKOUT ON OCCUPIED ROOM ");
     }
 
     public synchronized void book(){
-        if(roomStatus.equals(RoomStatus.AVAILABLE)) setRoomStatus(RoomStatus.BOOKED);
+        if(roomStatus.equals(RoomStatus.AVAILABLE)) {
+            System.out.println("booked room "+roomNumber);
+            setRoomStatus(RoomStatus.BOOKED);
+        }
         else throw new IllegalStateException("ROOM ALREADY BOOKED OR OCCUPIED BY SOMEONE ELSE ");
     }
 
