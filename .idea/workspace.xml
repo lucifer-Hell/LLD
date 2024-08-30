@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added readme">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/enums/RoomStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/enums/RoomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/StaffMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/enums/RoomStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/enums/RoomStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/models/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
