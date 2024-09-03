@@ -102,4 +102,10 @@ public class Room {
         else throw new IllegalStateException("ROOM ALREADY BOOKED OR OCCUPIED BY SOMEONE ELSE ");
     }
 
+    public synchronized void cancelBooking(){
+        if(roomStatus.equals(RoomStatus.BOOKED)){
+            setRoomStatus(RoomStatus.AVAILABLE);
+        }else throw new IllegalStateException("ROOM CANNOT BE CANCELLED BECAUSE ROOM IS HAVING STATUS "+roomStatus);
+    }
+
 }

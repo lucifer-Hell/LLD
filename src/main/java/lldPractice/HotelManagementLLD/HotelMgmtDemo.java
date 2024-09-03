@@ -30,10 +30,17 @@ public class HotelMgmtDemo {
         Reservation reservation=hotelManagementService.createReservation(List.of(
                 pankaj,anita,rahul),List.of(a100,a101),pankaj, LocalDate.now(),LocalDate.now().plusDays(10)
         );
-        // check in
         hotelManagementService.checkIn(pankaj);
+        hotelManagementService.checkOut(pankaj);
+        Reservation reservation1=hotelManagementService.createReservation(List.of(
+                pankaj,arjun,rahul),List.of(a100,a101),pankaj, LocalDate.now().plusDays(20),LocalDate.now().plusDays(30)
+        );
+        hotelManagementService.cancelReservation(reservation1.getId());
+        Reservation reservation2=hotelManagementService.createReservation(List.of(
+                pankaj,rahul),List.of(a100,a101),pankaj, LocalDate.now().plusDays(50),LocalDate.now().plusDays(50)
+        );
+        // check in
         // cancel reservation
 //        hotelManagementService.cancelReservation(reservation.getId());
-        hotelManagementService.checkOut(pankaj);
     }
 }

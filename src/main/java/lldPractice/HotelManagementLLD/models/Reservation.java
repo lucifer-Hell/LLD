@@ -25,6 +25,7 @@ public class Reservation {
         this.bookedAt = bookedAt;
         this.from = from;
         this.to = to;
+        this.status=ReservationStatus.CONFIRMED;
     }
 
     List<Room> rooms;
@@ -94,7 +95,7 @@ public class Reservation {
     public synchronized void cancelReservation(){
         if(status==ReservationStatus.CONFIRMED) {
             // change the room status
-            rooms.forEach(Room::checkOut);
+            rooms.forEach(Room::cancelBooking);
             setStatus(ReservationStatus.CANCELLED);
         }
         else throw new IllegalStateException("Reservation already cancelled ");
