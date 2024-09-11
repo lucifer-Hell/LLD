@@ -111,7 +111,7 @@ public class HotelManagementService {
     }
 
 
-
+     // SINGLETON PATTERN
     public static synchronized HotelManagementService getInstance(){
         if(instance ==null){
             System.out.println("Created new instance of hotel mgmt service ");
