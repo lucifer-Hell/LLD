@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="fixed errors">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/BalanceCalculationState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/ItemDispenseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/ItemSelectionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/RefundAmountState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachineState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="Vending machine">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/IVendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachineDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/service/HotelManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/service/HotelManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/BalanceCalculationState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/impl/IdleState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/ItemDispenseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/impl/ItemDispenseState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/ItemSelectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/impl/ItemSelectionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/Rack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/RefundAmountState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/impl/RefundAmountState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachineState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/VendingMachineState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -70,8 +71,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/lldPractice" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lldPractice.VendingMachineLLD.states" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Audi">
+  <component name="RunManager" selected="Application.VendingMachineDemo">
     <configuration name="Audi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lldPractice.Audi" />
       <module name="LLD" />
@@ -124,8 +128,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VendingMachineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lldPractice.VendingMachineLLD.VendingMachineDemo" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lldPractice.VendingMachineLLD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VendingMachineDemo" />
         <item itemvalue="Application.Audi" />
         <item itemvalue="Application.HotelMgmtDemo" />
         <item itemvalue="Application.Test" />
@@ -189,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725348196692</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Vending machine">
+      <option name="closed" value="true" />
+      <created>1726048114350</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726048114350</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +236,8 @@
     <MESSAGE value="hotel mgmt" />
     <MESSAGE value="added hotel mgmt lld" />
     <MESSAGE value="fixed errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed errors" />
+    <MESSAGE value="Vending machine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vending machine" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

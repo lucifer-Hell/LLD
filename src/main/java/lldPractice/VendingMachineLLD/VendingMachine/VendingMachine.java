@@ -1,46 +1,35 @@
-package lldPractice.VendingMachineLLD;
+package lldPractice.VendingMachineLLD.VendingMachine;
 
-import javax.swing.plaf.nimbus.State;
-import java.util.ArrayList;
+import lldPractice.VendingMachineLLD.VendingMachine.states.*;
+import lldPractice.VendingMachineLLD.VendingMachine.states.impl.*;
+
 import java.util.HashMap;
-import java.util.List;
-import java.util.Stack;
 
-public class VendingMachine {
-
-
-    public HashMap<Integer, Rack> getRackMap() {
-        return rackMap;
-    }
-
-    public void setRackMap(HashMap<Integer, Rack> rackMap) {
-        this.rackMap = rackMap;
-    }
+public class VendingMachine implements IVendingMachine{
 
     private HashMap<Integer,Rack> rackMap;
 
     private ItemDispenseState itemDispenseState;
-    private BalanceCalculationState balanceCalculationState;
     private ItemSelectionState itemSelectionState;
-    private  IdleState idleState;
-    private  RefundAmountState refundAmountState;
+    private IdleState idleState;
+    private RefundAmountState refundAmountState;
     private VendingMachineState state;
     private  Rack selectedRack;
 
     private int insertedCoins;
 
-    private String messsage;
+    private String message;
+    private Product selectedItem;
 
     public VendingMachine(HashMap<Integer,Rack> rackMap) {
         this.rackMap = rackMap;
-        ItemDispenseState itemDispenseState=new ItemDispenseState(this);
-        BalanceCalculationState balanceCalculationState=new BalanceCalculationState(this);
-        ItemSelectionState itemSelectionState=new ItemSelectionState(this);
-        IdleState idleState=new IdleState(this);
-        RefundAmountState refundAmountState=new RefundAmountState(this);
+        itemDispenseState=new ItemDispenseState(this);
+        itemSelectionState=new ItemSelectionState(this);
+        idleState=new IdleState(this);
+        refundAmountState=new RefundAmountState(this);
         System.out.println("Intializing default state as idle state ");
         setState(idleState);
-        messsage="Insert coin to starts with it";
+        message ="Insert coin to starts with it";
         insertedCoins=0;
     }
 
@@ -48,20 +37,25 @@ public class VendingMachine {
         return state;
     }
 
+    public HashMap<Integer, Rack> getRackMap() {
+        return rackMap;
+    }
+
+    void setRackMap(HashMap<Integer, Rack> rackMap) {
+        this.rackMap = rackMap;
+    }
+
 
     public ItemDispenseState getItemDispenseState() {
         return itemDispenseState;
     }
 
-    public BalanceCalculationState getBalanceCalculationState() {
-        return balanceCalculationState;
-    }
 
     public ItemSelectionState getItemSelectionState() {
         return itemSelectionState;
     }
 
-    public IdleState getIdleState() {
+    IdleState getIdleState() {
         return idleState;
     }
 
@@ -82,6 +76,7 @@ public class VendingMachine {
         state.selectRack(rackNo);
     }
 
+
     public Rack getSelectedRack() {
         return selectedRack;
     }
@@ -89,13 +84,13 @@ public class VendingMachine {
     public void setSelectedRack(Rack selectedRack) {
         this.selectedRack = selectedRack;
     }
-    private void calculateAmount(){
+    public void calculateAmount(){
         state.calculateAmount();
     }
-    private void dispenseItem(){
+    public void dispenseItem(){
         state.dispenseItem();
     }
-    private void refundBalance(){
+    public void refundBalance(){
         state.refundBalance();
     }
 
@@ -107,16 +102,28 @@ public class VendingMachine {
         this.insertedCoins = insertedCoins;
     }
 
-    public String getMesssage() {
-        return messsage;
+    public String getMessage() {
+        return message;
     }
 
-    public void setMesssage(String messsage) {
-        this.messsage = messsage;
+    public void setMessage(String message) {
+        this.message = message;
     }
-    // calculate balance
-    // dispense item
-    // refund balance
+
+    public void setSelectedItem(Product selectedItem) {
+        this.selectedItem = selectedItem;
+    }
+
+    public Product getSelectedItem() {
+        return selectedItem;
+    }
+
+    public void resetMachine() {
+        setInsertedCoins(0);
+        setSelectedItem(null);
+        setSelectedRack(null);
+        setState(idleState);
+    }
 }
 
 

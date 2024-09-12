@@ -1,4 +1,4 @@
-package lldPractice.VendingMachineLLD;
+package lldPractice.VendingMachineLLD.VendingMachine.states;
 
 public interface VendingMachineState {
     default void insertCoin(int coin){
