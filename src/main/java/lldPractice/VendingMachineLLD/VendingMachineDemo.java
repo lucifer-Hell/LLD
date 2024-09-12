@@ -11,26 +11,26 @@ import java.util.Stack;
 
 public class VendingMachineDemo {
     public static void main(String[] args) {
-        IVendingMachine vendingMachine =new VendingMachine(new HashMap<Integer, Rack>(){{
-            put(1,new Rack(
-                    new Stack<Product>(){{
-                        push(  new Product("THUMBS UP",30));
-                        push(  new Product("FRUTI",30));
-                        push(  new Product("MAZA",30));
+        IVendingMachine vendingMachine =new VendingMachine(new HashMap<>() {{
+            put(1, new Rack(
+                    new Stack<>() {{
+                        push(new Product("THUMBS UP", 30));
+                        push(new Product("FRUTI", 30));
+                        push(new Product("MAZA", 30));
                     }}
             ));
-            put(2,new Rack(
-                    new Stack<Product>(){{
-                        push(  new Product("THUMBS UP",30));
+            put(2, new Rack(
+                    new Stack<>() {{
+                        push(new Product("THUMBS UP", 30));
                     }}
             ));
-            put(3,new Rack(
-                    new Stack<Product>(){{
-                        push(  new Product("MAZA",30));
-                        push(  new Product("MAZA",30));
-                        push(  new Product("THUMBS UP",30));
-                        push(  new Product("FRUTI",30));
-                        push(  new Product("MAZA",30));
+            put(3, new Rack(
+                    new Stack<>() {{
+                        push(new Product("MAZA", 30));
+                        push(new Product("MAZA", 30));
+                        push(new Product("THUMBS UP", 30));
+                        push(new Product("FRUTI", 30));
+                        push(new Product("MAZA", 30));
                     }}
             ));
         }});
