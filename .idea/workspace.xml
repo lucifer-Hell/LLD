@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="Vending machine">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/IVendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachineDemo.java" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="finsihing touch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/BalanceCalculationState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/impl/IdleState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/ItemDispenseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/impl/ItemDispenseState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/ItemSelectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/impl/ItemSelectionState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/Rack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/RefundAmountState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/impl/RefundAmountState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachineState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/VendingMachineLLD/VendingMachine/states/VendingMachineState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726048114350</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Vending machine LLD">
+      <option name="closed" value="true" />
+      <created>1726142840031</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726142840031</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finsihing touch">
+      <option name="closed" value="true" />
+      <created>1726143014525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726143014525</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +242,9 @@
     <MESSAGE value="added hotel mgmt lld" />
     <MESSAGE value="fixed errors" />
     <MESSAGE value="Vending machine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vending machine" />
+    <MESSAGE value="Vending machine LLD" />
+    <MESSAGE value="finsihing touch" />
+    <option name="LAST_COMMIT_MESSAGE" value="finsihing touch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
