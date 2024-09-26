@@ -21,9 +21,9 @@ public class ThreadDemo {
     }
 
     private static long [] calculateModuleThreaded(Stack<Integer> stack, Map<Integer, Integer> modMap) throws InterruptedException {
-        System.out.println("Starting with non thread approach");
+        System.out.println("Starting with thread approach");
         // Spawn threads
-        ExecutorService executorService=Executors.newFixedThreadPool(100);
+        ExecutorService executorService=Executors.newFixedThreadPool(1000);
         List<Callable<Integer>> tasks=new ArrayList<>();
         while (!stack.isEmpty()){
             int no=stack.pop();
@@ -44,6 +44,7 @@ public class ThreadDemo {
     }
 
     private static long[] calculateModuleNoThreaded(Stack<Integer> stack,Map<Integer,Integer> modMap) throws InterruptedException {
+        System.out.println("Starting with non thread approach");
         long start=System.currentTimeMillis();
         while (!stack.isEmpty()){
             int no=stack.pop();
