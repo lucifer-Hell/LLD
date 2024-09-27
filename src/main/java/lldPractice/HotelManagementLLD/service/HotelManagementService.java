@@ -15,7 +15,7 @@ public class HotelManagementService {
     private final Map<String,Reservation> reservations;
     private final Map<String,Room> rooms;
     private final Map<String,Guest> guests;
-    // whenver making a single ton instance should use private constructor
+    // whenver making a singleton instance should use private constructor
     private HotelManagementService(){
         reservations=new HashMap<>();
         rooms=new HashMap<>();
@@ -114,8 +114,10 @@ public class HotelManagementService {
      // SINGLETON PATTERN
     public static synchronized HotelManagementService getInstance(){
         if(instance ==null){
-            System.out.println("Created new instance of hotel mgmt service ");
-            instance =new HotelManagementService();
+            synchronized (HotelManagementService.class){
+                System.out.println("Created new instance of hotel mgmt service ");
+                instance =new HotelManagementService();
+            }
         }
         return instance;
     }
