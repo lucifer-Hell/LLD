@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="pq demo">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/service/HotelManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/service/HotelManagementService.java" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added sync blocks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/BehaviouralDesignPattern/IteratorPattern/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/BehaviouralDesignPattern/IteratorPattern/BoxIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/BehaviouralDesignPattern/IteratorPattern/CustomIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/BehaviouralDesignPattern/IteratorPattern/IteratorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
       <recent name="lldPractice.VendingMachineLLD.states" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HotelMgmtDemo">
+  <component name="RunManager" selected="Application.IteratorDemo">
     <configuration name="HotelMgmtDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lldPractice.HotelManagementLLD.HotelMgmtDemo" />
       <module name="LLD" />
@@ -78,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.LinkedList.LinkedListTest" />
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EducativeIo.DesignPatterns.BehaviouralDesignPattern.IteratorPattern.IteratorDemo" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dsa.LinkedList.*" />
+          <option name="PATTERN" value="EducativeIo.DesignPatterns.BehaviouralDesignPattern.IteratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.HotelMgmtDemo" />
         <item itemvalue="Application.PriorityQueueDemo" />
         <item itemvalue="Application.ThreadDemo" />
         <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.LinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727407646782</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added sync blocks">
+      <option name="closed" value="true" />
+      <created>1727408929979</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727408929979</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +292,8 @@
     <MESSAGE value="ADDED THREADING DEMO" />
     <MESSAGE value="ADDED STRING DEMO" />
     <MESSAGE value="pq demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="pq demo" />
+    <MESSAGE value="added sync blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sync blocks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
