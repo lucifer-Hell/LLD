@@ -1,5 +1,7 @@
 package String;
 
+import java.util.*;
+
 public class StringDemo {
     public static void main(String[] args) {
         // literals are stored in a special memory ( string pool )
