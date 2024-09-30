@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added iterator pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/WalmartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added walmart interview update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round2/WalmartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round1/Iphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round1/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/WalmartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round1/WalmartTestR1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +67,26 @@
       <recent name="lldPractice.VendingMachineLLD.states" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WalmartTest">
+  <component name="RunManager" selected="Application.Interviews.Walmart.round2.WalmartTest">
     <configuration name="HotelMgmtDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lldPractice.HotelManagementLLD.HotelMgmtDemo" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lldPractice.HotelManagementLLD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interviews.Walmart.round2.WalmartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.Walmart.round2.WalmartTest" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interviews.Walmart.round2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,25 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WalmartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interviews.Walmart.WalmartTest" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.Walmart.*" />
+          <option name="PATTERN" value="Interviews.Walmart.round1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interviews.Walmart.round2.WalmartTest" />
         <item itemvalue="Application.WalmartTest" />
         <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.HotelMgmtDemo" />
         <item itemvalue="Application.PriorityQueueDemo" />
-        <item itemvalue="Application.ThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727410298987</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added walmart interview update">
+      <option name="closed" value="true" />
+      <created>1727431119795</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727431119795</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +309,8 @@
     <MESSAGE value="pq demo" />
     <MESSAGE value="added sync blocks" />
     <MESSAGE value="added iterator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="added iterator pattern" />
+    <MESSAGE value="added walmart interview update" />
+    <option name="LAST_COMMIT_MESSAGE" value="added walmart interview update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

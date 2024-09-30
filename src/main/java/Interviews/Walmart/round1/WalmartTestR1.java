@@ -1,8 +1,8 @@
-package Interviews.Walmart;
+package Interviews.Walmart.round1;
 
 import java.util.HashSet;
 
-public class WalmartTest {
+public class WalmartTestR1 {
 
     /*
     *
