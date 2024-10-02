@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added walmart interview update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round2/WalmartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round1/Iphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round1/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/WalmartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round1/WalmartTestR1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/yubi/Round1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round2/WalmartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round2/WalmartTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <recent name="lldPractice.VendingMachineLLD.states" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Interviews.Walmart.round2.WalmartTest">
+  <component name="RunManager" selected="Application.Round1">
     <configuration name="HotelMgmtDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lldPractice.HotelManagementLLD.HotelMgmtDemo" />
       <module name="LLD" />
@@ -107,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.Heap.PriorityQueueDemo" />
+    <configuration name="Round1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.yubi.Round1" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dsa.Heap.*" />
+          <option name="PATTERN" value="Interviews.yubi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Round1" />
         <item itemvalue="Application.Interviews.Walmart.round2.WalmartTest" />
         <item itemvalue="Application.WalmartTest" />
         <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.HotelMgmtDemo" />
-        <item itemvalue="Application.PriorityQueueDemo" />
       </list>
     </recent_temporary>
   </component>
