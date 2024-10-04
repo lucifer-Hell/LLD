@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added walmart interview update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/yubi/Round1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round2/WalmartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/Walmart/round2/WalmartTest.java" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="yubi r1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/yubi/Round2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/yubi/Round3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727431119795</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="yubi r1">
+      <option name="closed" value="true" />
+      <created>1727855280646</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727855280646</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +317,8 @@
     <MESSAGE value="added sync blocks" />
     <MESSAGE value="added iterator pattern" />
     <MESSAGE value="added walmart interview update" />
-    <option name="LAST_COMMIT_MESSAGE" value="added walmart interview update" />
+    <MESSAGE value="yubi r1" />
+    <option name="LAST_COMMIT_MESSAGE" value="yubi r1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
