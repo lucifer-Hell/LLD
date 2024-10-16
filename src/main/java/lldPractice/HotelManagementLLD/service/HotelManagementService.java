@@ -9,6 +9,7 @@ import lldPractice.HotelManagementLLD.models.Room;
 
 import java.time.LocalDate;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class HotelManagementService {
     private static HotelManagementService instance;
@@ -17,9 +18,9 @@ public class HotelManagementService {
     private final Map<String,Guest> guests;
     // whenver making a singleton instance should use private constructor
     private HotelManagementService(){
-        reservations=new HashMap<>();
-        rooms=new HashMap<>();
-        guests=new HashMap<>();
+        reservations=new ConcurrentHashMap<>();
+        rooms=new ConcurrentHashMap<>();
+        guests=new ConcurrentHashMap<>();
     }
 
     // room crud

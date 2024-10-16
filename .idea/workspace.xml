@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added repeating word problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/amazon/OAmazon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OAQeustions/Amazon/BalProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OAQeustions/Amazon/LexPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OAQeustions/Amazon/PNL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added design pattern list">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/service/HotelManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/service/HotelManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/OMSSystem/OMSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/OMSSystem/OMSDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728451904623</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added design pattern list">
+      <option name="closed" value="true" />
+      <created>1729045737454</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729045737454</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +343,8 @@
     <MESSAGE value="yubi r1" />
     <MESSAGE value="yubi update" />
     <MESSAGE value="added repeating word problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="added repeating word problem" />
+    <MESSAGE value="added design pattern list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added design pattern list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
