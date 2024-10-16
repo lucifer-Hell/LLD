@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="added design pattern list">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/service/HotelManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/HotelManagementLLD/service/HotelManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lldPractice/OMSSystem/OMSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lldPractice/OMSSystem/OMSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/TaskMgmtServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/enums/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/models/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/models/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/service/TaskMgmtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Interviews.flipkart.models" />
       <recent name="lldPractice.VendingMachineLLD" />
       <recent name="lldPractice.HotelManagementLLD.enums" />
       <recent name="lldPractice.HotelManagementLLD.models" />
@@ -65,7 +72,7 @@
       <recent name="lldPractice.VendingMachineLLD.states" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OAmazon">
+  <component name="RunManager" selected="Application.TaskMgmtServiceDemo">
     <configuration name="LexPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OAQeustions.Amazon.LexPalindrome" />
       <module name="LLD" />
@@ -118,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Round1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interviews.yubi.Round1" />
+    <configuration name="TaskMgmtServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.flipkart.TaskMgmtServiceDemo" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.yubi.*" />
+          <option name="PATTERN" value="Interviews.flipkart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskMgmtServiceDemo" />
         <item itemvalue="Application.OAmazon" />
         <item itemvalue="Application.LexPalindrome" />
         <item itemvalue="Application.LexicoGraph" />
         <item itemvalue="Application.RateLimiter" />
-        <item itemvalue="Application.Round1" />
       </list>
     </recent_temporary>
   </component>
@@ -363,6 +370,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/OAQeustions/Amazon/LexicoGraph.java</url>
           <line>47</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Interviews/flipkart/TaskMgmtServiceDemo.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
