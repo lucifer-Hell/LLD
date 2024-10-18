@@ -1,11 +1,10 @@
-package Interviews.flipkart;
+package Interviews.flipkart.machine_coding_round.enums;
 
-import Interviews.flipkart.enums.Priority;
-import Interviews.flipkart.models.Board;
-import Interviews.flipkart.models.Project;
-import Interviews.flipkart.models.Task;
-import Interviews.flipkart.models.User;
-import Interviews.flipkart.service.TaskMgmtService;
+import Interviews.flipkart.machine_coding_round.enums.models.Board;
+import Interviews.flipkart.machine_coding_round.enums.models.Project;
+import Interviews.flipkart.machine_coding_round.enums.models.Task;
+import Interviews.flipkart.machine_coding_round.enums.models.User;
+import Interviews.flipkart.machine_coding_round.enums.service.TaskMgmtService;
 
 public class TaskMgmtServiceDemo {
 

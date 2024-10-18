@@ -1,4 +1,4 @@
-package Interviews.flipkart.models;
+package Interviews.flipkart.machine_coding_round.enums.models;
 
 import java.util.ArrayList;
 import java.util.Collections;

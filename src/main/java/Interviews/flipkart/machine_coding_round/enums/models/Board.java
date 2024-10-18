@@ -1,9 +1,7 @@
-package Interviews.flipkart.models;
+package Interviews.flipkart.machine_coding_round.enums.models;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Board {
     private String boardId;

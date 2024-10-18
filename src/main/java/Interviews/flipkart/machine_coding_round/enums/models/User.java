@@ -1,4 +1,4 @@
-package Interviews.flipkart.models;
+package Interviews.flipkart.machine_coding_round.enums.models;
 
 public class User {
     private String userId;

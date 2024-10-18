@@ -1,7 +1,7 @@
-package Interviews.flipkart.service;
+package Interviews.flipkart.machine_coding_round.enums.service;
 
-import Interviews.flipkart.enums.Priority;
-import Interviews.flipkart.models.*;
+import Interviews.flipkart.machine_coding_round.enums.Priority;
+import Interviews.flipkart.machine_coding_round.enums.models.*;
 
 import java.util.HashMap;
 import java.util.Map;

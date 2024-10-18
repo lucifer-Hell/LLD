@@ -1,4 +1,4 @@
-package Interviews.flipkart.enums;
+package Interviews.flipkart.machine_coding_round.enums;
 
 public enum Priority {
     P0, // highest

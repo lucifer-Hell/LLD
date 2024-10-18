@@ -1,7 +1,6 @@
-package Interviews.flipkart.models;
+package Interviews.flipkart.machine_coding_round.enums.models;
 
-import Interviews.flipkart.enums.Priority;
-import Interviews.flipkart.models.User;
+import Interviews.flipkart.machine_coding_round.enums.Priority;
 
 public class Task {
     private String taskId;
