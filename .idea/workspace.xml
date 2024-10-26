@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="refactored">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Razorpay/OrderByCreatedAt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Razorpay/Razorpay.java" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="razorpay added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Cars24/Cars24Round1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Cars24/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/machine_coding_round/enums/InterviewRound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interviews/flipkart/machine_coding_round/enums/InterviewRound.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +67,13 @@
       <recent name="lldPractice.VendingMachineLLD.states" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Razorpay">
-    <configuration name="InterviewRound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interviews.flipkart.machine_coding_round.enums.InterviewRound" />
+  <component name="RunManager" selected="Application.Cars24Round1">
+    <configuration name="Cars24Round1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.Cars24.Cars24Round1" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.flipkart.machine_coding_round.enums.*" />
+          <option name="PATTERN" value="Interviews.Cars24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OAQeustions.Amazon.LexPalindrome" />
+    <configuration name="InterviewRound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.flipkart.machine_coding_round.enums.InterviewRound" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OAQeustions.Amazon.*" />
+          <option name="PATTERN" value="Interviews.flipkart.machine_coding_round.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cars24Round1" />
         <item itemvalue="Application.Razorpay" />
         <item itemvalue="Application.InterviewRound" />
         <item itemvalue="Application.TaskMgmtServiceDemo" />
         <item itemvalue="Application.OAmazon" />
-        <item itemvalue="Application.LexPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729232873499</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="razorpay added">
+      <option name="closed" value="true" />
+      <created>1729762069185</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729762069185</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,7 +372,8 @@
     <MESSAGE value="added design pattern list" />
     <MESSAGE value="added base code" />
     <MESSAGE value="refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
+    <MESSAGE value="razorpay added" />
+    <option name="LAST_COMMIT_MESSAGE" value="razorpay added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
