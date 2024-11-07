@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="updated test version">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemoryOverflowCheck/IntOverflowTest.java" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="overflow test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LRUCache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LRUCache/LRUCacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <recent name="lldPractice.VendingMachineLLD.states" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntOverflowTest">
+  <component name="RunManager" selected="Application.LRUCacheTest">
     <configuration name="Cars24Round1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interviews.Cars24.Cars24Round1" />
       <module name="LLD" />
@@ -93,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterviewRound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interviews.flipkart.machine_coding_round.enums.InterviewRound" />
+    <configuration name="LRUCacheTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LRUCache.LRUCacheTest" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.flipkart.machine_coding_round.enums.*" />
+          <option name="PATTERN" value="LRUCache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCacheTest" />
         <item itemvalue="Application.IntOverflowTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Cars24Round1" />
         <item itemvalue="Application.Razorpay" />
-        <item itemvalue="Application.InterviewRound" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730040182496</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="overflow test">
+      <option name="closed" value="true" />
+      <created>1730096808777</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730096808777</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,7 +375,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LLD lec 2 StrategyDesignPattern" />
     <MESSAGE value="added readme" />
     <MESSAGE value="added room functions" />
     <MESSAGE value="hotel mgmt" />
@@ -390,7 +399,8 @@
     <MESSAGE value="razorpay added" />
     <MESSAGE value="LRU CAHCE" />
     <MESSAGE value="updated test version" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated test version" />
+    <MESSAGE value="overflow test" />
+    <option name="LAST_COMMIT_MESSAGE" value="overflow test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -414,6 +424,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Interviews/flipkart/machine_coding_round/enums/TaskMgmtServiceDemo.java</url>
           <line>61</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LRUCache/LRUCacheTest.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
