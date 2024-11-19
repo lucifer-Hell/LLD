@@ -8,7 +8,7 @@ public class ThreadDemo {
     public static void main(String[] args) throws InterruptedException {
         // THREADS SHARE CODE DATA AND HEAP BUT DON'T SHARE STACK IN THEORTICIAL
         // BUT IN PRACTICAL SINCE THREADS MEMORY ARE ACCESSIBLE TO OTHER THREADS THEY CAN THE STACK MEM -- JUST IGNORE IF U DON'T UNDERSTAND
-        // Thread vs no thread approach to proivde module of all the numbers with 77 .
+        // Thread vs no thread approach to proivde modulo of all the numbers with 77 .
         int start=0,end=1000;
         Stack<Integer>stack=new Stack<>();
         stack.addAll(IntStream.range(start,end).boxed().toList());
@@ -52,6 +52,7 @@ public class ThreadDemo {
             Thread.sleep(20);
             modMap.put(no,no%77);
         }
+
         long end=System.currentTimeMillis();
         return new long[]{start,end};
     }

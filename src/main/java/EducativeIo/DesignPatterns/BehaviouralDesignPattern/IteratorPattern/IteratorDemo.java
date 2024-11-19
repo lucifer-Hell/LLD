@@ -12,5 +12,8 @@ public class IteratorDemo {
         while (iterator.hasNext()){
             System.out.println(iterator.next().getType());
         }
+
+        GIterator<Box> iterator1=new GIterator<>(boxes);
+        while (iterator1.hasNext()) System.out.println(iterator1.next().getType());
     }
 }

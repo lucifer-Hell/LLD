@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="overflow test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LRUCache/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LRUCache/LRUCacheTest.java" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="generic lru cache">
+      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/BehaviouralDesignPattern/IteratorPattern/GIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Leetcode/dailyChallenges/Problem862.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/BehaviouralDesignPattern/IteratorPattern/IteratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/BehaviouralDesignPattern/IteratorPattern/IteratorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Thread/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Thread/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +70,13 @@
       <recent name="lldPractice.VendingMachineLLD.states" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LRUCacheTest">
-    <configuration name="Cars24Round1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interviews.Cars24.Cars24Round1" />
+  <component name="RunManager" selected="Application.IteratorDemo">
+    <configuration name="IntOverflowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MemoryOverflowCheck.IntOverflowTest" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.Cars24.*" />
+          <option name="PATTERN" value="MemoryOverflowCheck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntOverflowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MemoryOverflowCheck.IntOverflowTest" />
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EducativeIo.DesignPatterns.BehaviouralDesignPattern.IteratorPattern.IteratorDemo" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MemoryOverflowCheck.*" />
+          <option name="PATTERN" value="EducativeIo.DesignPatterns.BehaviouralDesignPattern.IteratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Razorpay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interviews.Razorpay.Soln.v1.Razorpay" />
+    <configuration name="Problem862" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.dailyChallenges.Problem862" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.Razorpay.Soln.v1.*" />
+          <option name="PATTERN" value="Leetcode.dailyChallenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorDemo" />
+        <item itemvalue="Application.Problem862" />
         <item itemvalue="Application.LRUCacheTest" />
         <item itemvalue="Application.IntOverflowTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Cars24Round1" />
-        <item itemvalue="Application.Razorpay" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730096808777</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="generic lru cache">
+      <option name="closed" value="true" />
+      <created>1730956947874</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1730956947874</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +385,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added readme" />
     <MESSAGE value="added room functions" />
     <MESSAGE value="hotel mgmt" />
     <MESSAGE value="added hotel mgmt lld" />
@@ -400,7 +409,8 @@
     <MESSAGE value="LRU CAHCE" />
     <MESSAGE value="updated test version" />
     <MESSAGE value="overflow test" />
-    <option name="LAST_COMMIT_MESSAGE" value="overflow test" />
+    <MESSAGE value="generic lru cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic lru cache" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -429,6 +439,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/LRUCache/LRUCacheTest.java</url>
           <line>5</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LRUCache/LRUCacheTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/dailyChallenges/Problem862.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/dailyChallenges/Problem862.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/dailyChallenges/Problem862.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
