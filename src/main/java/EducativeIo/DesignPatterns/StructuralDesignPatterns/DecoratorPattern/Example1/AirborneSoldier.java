@@ -1,4 +1,4 @@
-package EducativeIo.DesignPatterns.StructuralDesignPatterns.DecoratorPattern;
+package EducativeIo.DesignPatterns.StructuralDesignPatterns.DecoratorPattern.Example1;
 
 public class AirborneSoldier extends SpecializedSoldier{
 

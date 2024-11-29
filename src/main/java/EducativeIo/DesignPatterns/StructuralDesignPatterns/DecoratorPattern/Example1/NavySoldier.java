@@ -1,6 +1,4 @@
-package EducativeIo.DesignPatterns.StructuralDesignPatterns.DecoratorPattern;
-
-import java.util.ArrayList;
+package EducativeIo.DesignPatterns.StructuralDesignPatterns.DecoratorPattern.Example1;
 
 public class NavySoldier extends SpecializedSoldier{
     public NavySoldier(Soldier soldier) {
