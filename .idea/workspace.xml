@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="m2p generic question">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example2/ChocoCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example2/IceCream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example2/IceCreamDecocrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example2/WhipCreamDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/MP2/R2ExpAppLLD/v1/Round2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/MP2/R2ExpAppLLD/v2/ExpenseDemo.java" afterDir="false" />
+    <list default="true" id="1c7e7203-6d4a-4d5e-b154-683f3c7643c8" name="Changes" comment="Icream Example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Bitgo/Round2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Bitgo/Round3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/MP2/Round3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/Multiplier/Round1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interviews/groupon/Round1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Leetcode/dailyChallenges/Problem2097.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/AirborneSoldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example1/AirborneSoldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example1/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/NarcoSoldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example1/NarcoSoldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/NavySoldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example1/NavySoldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example1/Soldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/SpecializedSoldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EducativeIo/DesignPatterns/StructuralDesignPatterns/DecoratorPattern/Example1/SpecializedSoldier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +75,7 @@
       <recent name="lldPractice.VendingMachineLLD.states" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Round1">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EducativeIo.DesignPatterns.StructuralDesignPatterns.DecoratorPattern.Example2.Client" />
       <module name="LLD" />
@@ -109,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem1072" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.dailyChallenges.Problem1072" />
+    <configuration name="Problem2097" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.dailyChallenges.Problem2097" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="Round1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interviews.Zeta.Round1" />
+      <option name="MAIN_CLASS_NAME" value="Interviews.Multiplier.Round1" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.Zeta.*" />
+          <option name="PATTERN" value="Interviews.Multiplier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Round1" />
+        <item itemvalue="Application.Problem2097" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Round2" />
         <item itemvalue="Application.Interviews.MP2.Round1" />
-        <item itemvalue="Application.Problem1072" />
-        <item itemvalue="Application.Round1" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732341432955</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Icream Example">
+      <option name="closed" value="true" />
+      <created>1732858556404</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1732858556404</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,7 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added hotel mgmt lld" />
     <MESSAGE value="fixed errors" />
     <MESSAGE value="Vending machine" />
     <MESSAGE value="Vending machine LLD" />
@@ -446,7 +446,8 @@
     <MESSAGE value="generic lru cache" />
     <MESSAGE value="added generic iterator class" />
     <MESSAGE value="m2p generic question" />
-    <option name="LAST_COMMIT_MESSAGE" value="m2p generic question" />
+    <MESSAGE value="Icream Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Icream Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,6 +511,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/Leetcode/dailyChallenges/Problem1072.java</url>
           <line>15</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/dailyChallenges/Problem2097.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/dailyChallenges/Problem2097.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Interviews/Multiplier/Round1.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
